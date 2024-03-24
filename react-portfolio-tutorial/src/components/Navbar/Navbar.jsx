@@ -18,7 +18,10 @@ const Navbar = () => {
             <FaBars onClick={() => setOpen(!open)} />
           )}
         </span>
-        <ul className={`${styles.menuItem} ${open && styles.menuOpen}`}>
+        <ul
+          className={`${styles.menuItem} ${open && styles.menuOpen}`}
+          onClick={() => setOpen(false)}
+        >
           <li>
             <a href="#about">About</a>
           </li>
