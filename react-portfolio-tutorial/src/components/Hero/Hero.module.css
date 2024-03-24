@@ -1,0 +1,45 @@
+@import "../../assets/style/vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 49px 10% 0 10%;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, .0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    font-size: 20px;
+    font-family: var(--font-roboto);
+    margin-bottom: 50px;
+    max-width: 440px;
+}
+
+.contactBotton {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 17px 26px;
+}
