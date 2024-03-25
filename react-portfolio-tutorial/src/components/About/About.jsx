@@ -30,6 +30,20 @@ const About = () => {
             <img src={Backend} alt="CPU-Icon" />
             <div className={styles.aboutItemText}>
               <h3>BackEnd Developer</h3>
+              <p>
+                I'm Backend Developer In Progress... And I have exp developing
+                back-end system and APIs
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={MUI} alt="UI-Icon" />
+            <div className={styles.aboutItemText}>
+              <h3>UI Designer</h3>
+              <p>
+                I have designed multiple landing pages and have created design
+                system as well
+              </p>
             </div>
           </li>
         </ul>

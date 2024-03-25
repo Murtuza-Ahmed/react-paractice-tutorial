@@ -1,5 +1,5 @@
 import React from "react";
-import Men from "../../assets/image/hero/men-image-resize.png";
+import Men from "../../assets/image/hero/men-image-1000.png";
 import styles from "./Hero.module.css";
 
 const Hero = () => {

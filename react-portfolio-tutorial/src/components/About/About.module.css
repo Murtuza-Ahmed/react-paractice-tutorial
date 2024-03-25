@@ -31,6 +31,7 @@
     color: var(--color-text);
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .aboutItem {
@@ -58,4 +59,29 @@
 
 .aboutItem p {
     font-size: 15px;
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 25px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
