@@ -23,12 +23,12 @@ const Experience = () => {
       </div>
       <ul className={styles.history}>
         {historyItem.map((history, id) => (
-          <li key={id} className={historyItem}>
+          <li key={id} className={styles.historyItem}>
             <img
               src={getImageUrl(history.imageSrc)}
               alt={`${history.organisation} Logo`}
             />
-            <div className={historyItemDetail}>
+            <div className={styles.historyItemDetail}>
               <h3>{`${history.role}, ${history.organisation}`}</h3>
               <p>{`${history.startDate} - ${history.endDate}`}</p>
               <ul>
