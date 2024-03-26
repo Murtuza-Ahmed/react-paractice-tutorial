@@ -1,4 +1,5 @@
 import skills from "../../data/skills.json";
+import historyItem from "../../data/history.json";
 import { getImageUrl } from "../../pages/utils";
 
 const Experience = () => {
@@ -18,7 +19,16 @@ const Experience = () => {
           );
         })}
       </div>
-      <ul></ul>
+      <ul>
+        {historyItem.map((history, id) => (
+          <li key={id}>
+            <img
+              src={getImageUrl(history.imageSrc)}
+              alt={`${history.organisation} Logo`}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };
