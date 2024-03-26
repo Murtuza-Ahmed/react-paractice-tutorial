@@ -15,6 +15,11 @@
         "title": "Project B",
         "imageSrc": "project/project.png",
         "description": "This is a Project made to learn the latest languages by building and app.",
+        "skills": [
+            "JavaScript",
+            "React",
+            "Next"
+        ],
         "demo": "https://www.example.com",
         "sourcs": "https://www.github.com"
     },
@@ -22,6 +27,11 @@
         "title": "Project C",
         "imageSrc": "project/project.png",
         "description": "This is a Project made to learn the latest languages by building and app.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "SCSS"
+        ],
         "demo": "https://www.example.com",
         "sourcs": "https://www.github.com"
     }
