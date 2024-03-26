@@ -20,26 +20,26 @@ const Experience = () => {
             );
           })}
         </div>
+        <ul className={styles.history}>
+          {historyItem.map((history, id) => (
+            <li key={id} className={styles.historyItem}>
+              <img
+                src={getImageUrl(history.imageSrc)}
+                alt={`${history.organisation} Logo`}
+              />
+              <div className={styles.historyItemDetail}>
+                <h3>{`${history.role}, ${history.organisation}`}</h3>
+                <p>{`${history.startDate} - ${history.endDate}`}</p>
+                <ul>
+                  {history.experiences.map((exp, id) => (
+                    <li key={id}>{exp}</li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
-      <ul className={styles.history}>
-        {historyItem.map((history, id) => (
-          <li key={id} className={styles.historyItem}>
-            <img
-              src={getImageUrl(history.imageSrc)}
-              alt={`${history.organisation} Logo`}
-            />
-            <div className={styles.historyItemDetail}>
-              <h3>{`${history.role}, ${history.organisation}`}</h3>
-              <p>{`${history.startDate} - ${history.endDate}`}</p>
-              <ul>
-                {history.experiences.map((exp, id) => (
-                  <li key={id}>{exp}</li>
-                ))}
-              </ul>
-            </div>
-          </li>
-        ))}
-      </ul>
     </section>
   );
 };
