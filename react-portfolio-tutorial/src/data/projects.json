@@ -9,7 +9,7 @@
             "Next"
         ],
         "demo": "https://www.example.com",
-        "sourcs": "https://www.github.com"
+        "source": "https://www.github.com"
     },
     {
         "title": "Project B",
@@ -21,7 +21,7 @@
             "Next"
         ],
         "demo": "https://www.example.com",
-        "sourcs": "https://www.github.com"
+        "source": "https://www.github.com"
     },
     {
         "title": "Project C",
@@ -33,6 +33,6 @@
             "SCSS"
         ],
         "demo": "https://www.example.com",
-        "sourcs": "https://www.github.com"
+        "source": "https://www.github.com"
     }
 ]
