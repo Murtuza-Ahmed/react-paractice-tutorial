@@ -36,6 +36,11 @@
     cursor: pointer;
 }
 
+.navMenu li a {
+    color: #626262;
+    text-decoration: none;
+}
+
 .navMenu hr {
     border: none;
     width: 80%;
