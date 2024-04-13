@@ -1,0 +1,30 @@
+.Item {
+    width: 350px;
+}
+
+Item p {
+    margin: 6px 0;
+}
+
+.ItemPrices {
+    display: flex;
+    gap: 20px;
+}
+
+.ItemPriceNew {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ItemPriceOld {
+    color: #8C8C8C;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.Item:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
