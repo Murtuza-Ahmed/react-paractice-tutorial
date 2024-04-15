@@ -1,0 +1,56 @@
+.NewLetter {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #FDE1FF 0%, #E1FFEA22 60%);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.NewLetter h1 {
+    color: #454545;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.NewLetter p {
+    color: #454545;
+    font-size: 20px;
+}
+
+.NewLetter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    width: 700px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #E3E3E3;
+}
+
+.NewLetter input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.NewLetter button {
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
