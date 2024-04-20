@@ -1,11 +1,15 @@
-import styles from "./DescriptionBox";
+import styles from "./DescriptionBox.module.css";
 
 const DescriptionBox = () => {
   return (
     <div className={styles.DescriptionBox}>
       <div className={styles.DescriptionBoxNavigator}>
         <div className={styles.DescriptionBoxNavBox}>Description</div>
-        <div className={styles.DescriptionBoxNavBoxFade}>Reviews (122)</div>
+        <div
+          className={`${styles.DescriptionBoxNavBox} ${styles.DescriptionBoxNavBoxFade}`}
+        >
+          Reviews (122)
+        </div>
       </div>
       <div className={styles.DescriptionBoxDescription}>
         <p>
