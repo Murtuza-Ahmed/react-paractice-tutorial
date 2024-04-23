@@ -1,0 +1,42 @@
+.CartItemCountainer {
+    margin: 100px 110px;
+}
+
+.CartItemCountainer hr {
+    height: 3px;
+    background-color: #E2E2E2;
+    border: 0;
+}
+
+.cartItemFormatMain {
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.CartItemFormat {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.CartIconProductIcon {
+    height: 80px;
+}
+
+.CartIconRemoveIcon {
+    width: 15px;
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+.CartItemQuantity {
+    width: 64px;
+    height: 50px;
+    border: 2px solid #EBEBEB;
+    background-color: #FFF;
+}

@@ -8,19 +8,16 @@ const getDefaultCart = () => {
   for (let index = 0; index <= all_product.length + 1; index++) {
     cart[index] = 0;
   }
-  console.log(cart);
   return cart;
 };
 
 const ShopContextProvider = (props) => {
   const [cartItem, setCartItem] = useState(getDefaultCart());
-  // console.log(cartItem);
 
   const addToCart = (itemId) => {
     setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
-    console.log(itemId)
   };
-  console.log(cartItem)
+  
   const removeFromCart = (itemId) => {
     setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
   };
