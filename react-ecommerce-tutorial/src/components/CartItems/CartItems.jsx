@@ -5,7 +5,7 @@ import remove_icon from "../../assets/image/cart_cross_icon.png";
 
 const CartItems = () => {
   const { all_product, cartItem, removeFromCart } = useContext(ShopContext);
-  console.log(cartItem);
+  console.log("hello",cartItem);
   return (
     <div className={styles.CartItems}>
       <div className={styles.cartItemFormatMain}>
