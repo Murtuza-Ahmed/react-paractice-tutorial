@@ -86,3 +86,44 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+.ResponsiveIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navMenu {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 10px 20px;
+        gap: 10px;
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .ResponsiveIcon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: -10px;
+        display: flex;
+        margin: 15px;
+    }
+
+    /* .Cross {
+        display: none;
+    } */
+}
