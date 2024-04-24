@@ -20,7 +20,7 @@
 }
 
 .RelatedProductsItem {
-    margin: 50px 80px;
+    margin: 50px 75px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

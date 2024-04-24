@@ -5,12 +5,9 @@ import cartIcon from "../../assets/image/cart_icon.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../context/ShopContext";
-import { FaBars } from "react-icons/fa6";
-import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
-  const [navMenu, setNavMenu] = useState(false);
   const { getTotalCartItems } = useContext(ShopContext);
   return (
     <div>
@@ -19,7 +16,7 @@ const Navbar = () => {
           <img src={logo} alt="Shopping-Beg-Icon" />
           <p>SHOPPER</p>
         </div>
-        <ul className={`${styles.navMenu} ${navMenu && styles.menu}`}>
+        <ul className={styles.navMenu}>
           <li onClick={() => setMenu("shop")}>
             <Link to="/">Shop</Link> {menu === "shop" ? <hr /> : ""}
           </li>
@@ -43,16 +40,7 @@ const Navbar = () => {
           <div className={styles.navCartCount}>{getTotalCartItems()}</div>
         </div>
         <div className={styles.ResponsiveIcon}>
-          <div className={`${styles.Responsive} ${styles.Bars}`}>
-            {navMenu ? (
-              <FaBars onClick={() => setNavMenu(!navMenu)} />
-            ) : (
-              <ImCross onClick={() => setNavMenu(!navMenu)} />
-            )}
-          </div>
-          {/* <div className={`${styles.Responsive} ${styles.Cross}`}>
-            <ImCross />
-          </div> */}
+          <div className={`${styles.Responsive} ${styles.Bars}`}></div>
         </div>
       </div>
     </div>
