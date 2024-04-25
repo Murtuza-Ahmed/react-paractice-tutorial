@@ -2,8 +2,8 @@ import p1_img from '../assets/image/product_1.png'
 import p2_img from '../assets/image/product_2.png'
 import p3_img from '../assets/image/product_3.png'
 import p4_img from '../assets/image/product_4.png'
-import p5_img from '../assets/image/product_5.jpg'
-import p6_img from '../assets/image/product_6.jpg'
+// import p5_img from '../assets/image/product_5.jpg'
+// import p6_img from '../assets/image/product_6.jpg'
 
 let data_product = [
   {

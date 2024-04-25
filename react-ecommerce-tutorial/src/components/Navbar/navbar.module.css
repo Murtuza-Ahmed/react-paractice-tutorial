@@ -56,8 +56,6 @@
 }
 
 .navLoginCart button {
-    /* width: 150px;
-    height: 50px; */
     padding: 1rem 2rem;
     outline: none;
     border: 1px solid #7A7A7A;
@@ -89,9 +87,55 @@
 
 .ResponsiveIcon {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    position: relative;
+}
+
+.Responsive {
     font-size: 2rem;
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: -50px;
+    gap: 10px;
     display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navMenu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navMenuNone {
+        display: none;
+    }
+
+    .Responsive {
+        display: block;
+    }
+
+    .ShowNavMenu {
+        display: block;
+    }
+
+    .navMenu hr {
+        width: 8%;
+    }
+
+    .navCartCount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 235px;
+        left: 215px;
+    }
 }
