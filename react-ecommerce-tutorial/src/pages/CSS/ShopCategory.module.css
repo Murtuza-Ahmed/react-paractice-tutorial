@@ -41,3 +41,13 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media only screen and (max-width:768px) {
+    .ShopCategoryProducts {
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}

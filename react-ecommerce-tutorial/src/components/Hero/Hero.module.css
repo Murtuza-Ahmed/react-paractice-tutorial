@@ -57,3 +57,23 @@
     align-content: center;
     justify-content: center;
 }
+
+@media only screen and (max-width:768px) {
+    .Hero {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .HeroLeft {
+        margin-top: 2rem;
+    }
+
+    .HeroRight {
+        margin-bottom: 5rem;
+    }
+
+    .HeroRight img {
+        display: none;
+    }
+}
