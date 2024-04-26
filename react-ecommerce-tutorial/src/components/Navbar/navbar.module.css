@@ -139,3 +139,21 @@
         left: 215px;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .navbar {
+        width: 185%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .navbar {
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .navbar {
+        width: 230%;
+    }
+}

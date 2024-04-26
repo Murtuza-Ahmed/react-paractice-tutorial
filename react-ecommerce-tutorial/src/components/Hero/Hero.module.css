@@ -77,3 +77,21 @@
         display: none;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .Hero {
+        width: 185%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Hero {
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .Hero {
+        width: 230%;
+    }
+}
