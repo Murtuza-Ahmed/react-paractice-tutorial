@@ -55,3 +55,11 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width:475px) {
+    .Offers {
+        width: 200%;
+        align-items: center;
+        justify-content: center;
+    }
+}

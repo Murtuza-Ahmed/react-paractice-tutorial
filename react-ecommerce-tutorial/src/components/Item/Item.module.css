@@ -28,3 +28,9 @@ Item p {
     transform: scale(1.05);
     transition: .6s;
 }
+
+@media only screen and (max-width:475px) {
+    .ItemPrices {
+        justify-content: center;
+    }
+}
