@@ -35,11 +35,15 @@
 }
 
 @media only screen and (max-width:475px) {
-    .Collection h1 {
+    .NewCollection h1 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         width: 200%;
         margin: 5rem auto 0;
+    }
+
+    .NewCollection hr {
+        display: none;
     }
 }
