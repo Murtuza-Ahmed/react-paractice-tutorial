@@ -35,10 +35,17 @@
     }
 }
 
-@media only screen and (max-width:475px) {
+@media only screen and (max-width:425px) {
     .Popular {
         text-align: center;
         width: 190%;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .PopularItem {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

@@ -56,10 +56,16 @@
     }
 }
 
-@media only screen and (max-width:475px) {
+@media only screen and (max-width:425px) {
     .Offers {
         width: 200%;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Offers {
+        width: 250%;
     }
 }

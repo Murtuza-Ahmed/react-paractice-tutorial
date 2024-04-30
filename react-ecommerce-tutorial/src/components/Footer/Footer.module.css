@@ -61,8 +61,14 @@
     background-color: #C7C7C7;
 }
 
-@media only screen and (max-width:475px) {
+@media only screen and (max-width:425px) {
     .Footer {
         width: 170%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Footer {
+        width: 210%;
     }
 }
