@@ -109,3 +109,9 @@
         display: block;
     }
 }
+
+@media only screen and (max-widht:475px) {
+    .ProductDisplayRight h1 {
+        width: 250%;
+    }
+}

@@ -14,3 +14,9 @@
         margin: 60px 40px;
     }
 }
+
+@media only screen and (max-width:475px) {
+    .Breadcrums {
+        width: 156%;
+    }
+}

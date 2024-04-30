@@ -60,3 +60,9 @@
     height: 3px;
     background-color: #C7C7C7;
 }
+
+@media only screen and (max-width:475px) {
+    .Footer {
+        width: 170%;
+    }
+}
